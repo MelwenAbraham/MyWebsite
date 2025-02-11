@@ -8,7 +8,7 @@ const myProjects = [
     alt: "Project-Image",
     name: "Sharjah Police Human Resourse Management System",
     description:
-      "Played a key role in developing a user-friendly e-research administration tool using JavaScript. Collaborated with a US-based team, ensuring code quality through continuous reviews and meetings. This experience strengthened my front-end development skills and ability to work in an international team setting.",
+      "An HRMS (Human Resource Management System) for a police department is a centralized software solution that manages personnel records, attendance, duty rosters, leave, training, performance evaluations, and compliance tracking, ensuring efficient workforce management and operational transparency",
   },
   {
     ID: "02",
