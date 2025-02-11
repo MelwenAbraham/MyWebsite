@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  /* For Light Mode */
+  --bg-light-colour: #ffffff;
+  --bg-light-text-colour: #000000;
+}
+
+body {
+  margin: 0;
+  font-family: "Sora", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-outline {
+    font: 800 48px Arial;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-text-stroke: 2px !important;
+  }
+
+}
+
+@layer utilities {
+  .text-outline-responsive {
+    font: 400 20px Arial;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-text-stroke: 2px !important;
+  }
+
+}
